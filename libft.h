@@ -6,7 +6,7 @@
 /*   By: pamanzan <pamanzan@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/15 08:29:46 by pamanzan          #+#    #+#             */
-/*   Updated: 2024/09/30 14:15:32 by pamanzan         ###   ########.fr       */
+/*   Updated: 2024/10/29 16:18:11 by pamanzan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,7 @@ unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size);
 int				ft_strcmp(char *s1, char *s2);
 int				ft_strncmp(char *s1, char *s2, unsigned int n);
 unsigned int	ft_strlcat(char *dest, char *src, unsigned int size);
+char			*ft_strcpy(char *dest, char *src);
 char			*ft_strnstr(const char *str1, const char *str2, size_t n);
 char			*ft_strrchr(const char *s, int c);
 char			*ft_strchr(const char *s, int c);
